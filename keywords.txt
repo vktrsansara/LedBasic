@@ -1,0 +1,80 @@
+#######################################
+# Syntax Coloring Map For LedBasic
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LedBasic	KEYWORD1
+VMState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# Lifecycle
+play	KEYWORD2
+stop	KEYWORD2
+tick	KEYWORD2
+isRunning	KEYWORD2
+
+# Loading / Compilation
+compileFromText	KEYWORD2
+loadBinMemory	KEYWORD2
+loadBinFile	KEYWORD2
+compileBasToBin	KEYWORD2
+
+# Speed control
+setSpeed	KEYWORD2
+getSpeed	KEYWORD2
+
+#######################################
+# LedBasic language keywords (KEYWORD3 = orange in Arduino IDE)
+#######################################
+
+# LED commands
+SET	KEYWORD3
+SET_HSV	KEYWORD3
+FILL	KEYWORD3
+CLEAR	KEYWORD3
+SHOW	KEYWORD3
+WAIT	KEYWORD3
+DELAY	KEYWORD3
+FADE	KEYWORD3
+MIRROR	KEYWORD3
+BRIGHT	KEYWORD3
+
+# Control flow
+FOR	KEYWORD3
+TO	KEYWORD3
+STEP	KEYWORD3
+NEXT	KEYWORD3
+IF	KEYWORD3
+THEN	KEYWORD3
+GOTO	KEYWORD3
+GOSUB	KEYWORD3
+RETURN	KEYWORD3
+
+# Functions / operators
+PIXEL	KEYWORD3
+RND	KEYWORD3
+ABS	KEYWORD3
+MIN	KEYWORD3
+MAX	KEYWORD3
+SIN8	KEYWORD3
+COS8	KEYWORD3
+EXP8	KEYWORD3
+NOISE	KEYWORD3
+MAP	KEYWORD3
+CONSTRAIN	KEYWORD3
+AND	KEYWORD3
+OR	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+VM_STOPPED	LITERAL1
+VM_RUNNING	LITERAL1
+VM_WAITING	LITERAL1
